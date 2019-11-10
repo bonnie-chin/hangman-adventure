@@ -1,0 +1,96 @@
+h1 {
+
+	font-family: 'IBM Plex Mono', monospace;
+	padding: 1em;
+	background-color: #131E36;
+	color:white;
+	width:inherit;
+
+	}
+
+h2 {
+
+	background-color: rgba(227, 231, 232, 0.65);
+	color:#393939;
+	font-family: 'Open Sans', sans-serif;
+	font-size:20px;
+	padding-right:5em;
+	padding-left:5em;
+	padding-top:3em;
+	padding-bottom:3em;
+	margin-bottom:2em;
+	text-align:center;
+	text-emphasis:none;
+	border-radius:35px;
+
+}
+
+button {
+
+	margin:1em;
+	width:14em;
+	height:7em;
+	font-family: 'IBM Plex Mono', monospace;
+	font-size:24px;
+	border-radius: 20px;
+	background-color:rgb(221, 234, 255, 0.8);
+	opacity: 0.7;
+	-webkit-animation-name: shrink; /* Safari 4.0 - 8.0 */
+	-webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+	animation-name: shrink;
+	animation-duration: 1.5s;
+	-webkit-animation-name: grow; /* Safari 4.0 - 8.0 */
+	-webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+	animation-name: grow;
+	animation-duration: 1.5s;
+
+}
+
+@keyframes shrink {
+
+    	from {
+			width:14em;
+			height:7em;
+			}
+		to {
+			width:13em;
+			height:6em;
+			}
+
+}
+
+@keyframes grow {
+
+    	from {
+			width:13em;
+			height:6em;
+			}
+		to {
+			width:14em;
+			height:7em;
+			}
+
+}
+
+button:hover {
+
+	transform: scale(0.9);
+	font-size:22px;
+	opacity:0.7;
+	transition: all .2s ease-in-out;
+
+}
+
+p {
+
+	text-align:center;
+
+}
+
+body {
+
+	background-image: url("http://studioghiblimovies.com/images/laputaww7.jpg");
+	background-position:50% 30%;
+	background-repeat:no-repeat;
+
+}
