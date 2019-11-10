@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="https://fonts.googleapis.com/css?family=Abel|IBM+Plex+Mono|Roboto+Mono|Open+Sans" rel="stylesheet">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+</head>
+
+<style>
+
+h1 {
+
+	font-family: 'IBM Plex Mono', monospace;
+	padding: 1em;
+	background-color: #131E36;
+	color:white;
+	width:inherit;
+
+	}
+
+h2 {
+
+	background-color: rgba(227, 231, 232, 0.65);
+	color:#393939;
+	font-family: 'Open Sans', sans-serif;
+	font-size:20px;
+	padding-right:5em;
+	padding-left:5em;
+	padding-top:3em;
+	padding-bottom:3em;
+	margin-bottom:2em;
+	text-align:center;
+	text-emphasis:none;
+	border-radius:35px;
+
+}
+
+button {
+
+	margin:1em;
+	width:14em;
+	height:7em;
+	font-family: 'IBM Plex Mono', monospace;
+	font-size:24px;
+	border-radius: 20px;
+	background-color:rgb(221, 234, 255, 0.8);
+	opacity: 0.7;
+	-webkit-animation-name: shrink; /* Safari 4.0 - 8.0 */
+	-webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+	animation-name: shrink;
+	animation-duration: 1.5s;
+	-webkit-animation-name: grow; /* Safari 4.0 - 8.0 */
+	-webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+	animation-name: grow;
+	animation-duration: 1.5s;
+
+}
+
+@keyframes shrink {
+
+    	from {
+			width:14em;
+			height:7em;
+			}
+		to {
+			width:13em;
+			height:6em;
+			}
+
+}
+
+@keyframes grow {
+
+    	from {
+			width:13em;
+			height:6em;
+			}
+		to {
+			width:14em;
+			height:7em;
+			}
+
+}
+
+button:hover {
+
+	transform: scale(0.9);
+	font-size:22px;
+	opacity:0.7;
+	transition: all .2s ease-in-out;
+
+}
+
+p {
+
+	text-align:center;
+
+}
+
+body {
+
+	background-image: url("http://studioghiblimovies.com/images/laputaww7.jpg");
+	background-position:50% 30%;
+	background-repeat:no-repeat;
+
+}
+
+</style>
+
+<script>
+function playAgain() {
+	window.location.href = "Hangman.html";
+}
+
+function exit() {
+	window.location.href = "https://www.boredpanda.com/funny-puns-arseniic-monika-pundemonium/";
+}
+
+</script>
+<body>
+    <header id="level"><h1>THE BOKCHOY ADVENTURES | LEVEL 1</h1></header>
+    <h2 id= "subtitle">Congratulations for making it past LEVEL 0. We're currently under construction, but you may continue your adventure soon! In the mean time... </h2>
+    <p>
+        <button id = "playAgain" onClick="playAgain()"> Replay Level 0</button>
+        <button id ="Exit" onclick="exit()"> Exit to the Unknown </button>
+    </p>
+</body>
+</html>
